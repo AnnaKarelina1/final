@@ -1,0 +1,23 @@
+age = 36
+if age >= 18:
+    result_1 = "You can vote"
+elif age == 17:
+    result_1 = "You can learn"
+print(result_1)
+
+
+
+
+list_1 = [30, 50, 43, 67, 34]
+
+print("The largest number is:", max(list_1))
+
+
+
+
+s = "I was born in 1984 on September 29th"
+sum_1 = 0
+for x in str(s):
+    if x.isdigit():
+        sum_1 += int(x)
+print(sum_1)
